@@ -420,6 +420,33 @@ header .content-container .navbar .navbar-box .user-info p {
     font-weight: 500;
 }
 
+.circle-svg {
+    position: relative;
+    z-index: -1;
+}
+
+
+/* @media only screen and (min-device-width: 481px) and (max-device-width: 1440px) and (orientation:landscape) {
+    .circle-svg {
+        top: 18% !important;
+        left: 32% !important;
+    }
+} */
+
+@media only screen and (min-device-width: 1441px) and (max-device-width: 1600px) and (orientation:landscape) {
+    .circle-svg {
+        bottom: 684px !important;
+        left: 552px !important;
+    }
+}
+
+@media only screen and (min-device-width: 1661px) and (max-device-width: 1920px) and (orientation:landscape) {
+    .circle-svg {
+        bottom: 684px !important;
+        left: 729px !important;
+    }
+}
+
 
 /* button {
     background: #3E66FB;
